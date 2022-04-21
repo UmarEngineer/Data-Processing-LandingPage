@@ -137,7 +137,7 @@ body{
 .nav-line{
     width: 30px;
     height: 2px;
-    background-color: white;
+    background-color: #F2994A;
     margin-bottom: 5px;
 }
 
@@ -899,13 +899,16 @@ body{
     .navbar-active{
         display: block;
         position: absolute;
-        width: 100%;
-        height: 70px;
-        color: wheat;
-        top: 60px;
+        width: 110%;
+        height: 200px;
+        top: 0px;
+        left: -10px;
+        padding-top: 60px;
+        padding-right: 60px;
+        color: #040D3E;
         text-align: right;
-        right: 30px;
         transition: 2s;
+        background-color: white;
     }
 
     .navigation{
@@ -945,7 +948,7 @@ body{
     .main-section__info{
         width: 100%;
         /* position: absolute; */
-        margin-top: 30px;
+        margin-top: 80px;
         padding: 0 50px;
     }
 
@@ -1129,11 +1132,42 @@ body{
         padding-left: 150px;
         padding-top: 0;
     }
+}
 
-    @media screen and (max-width: 400px) {
+
+@media screen and (max-width: 400px) {
         .nav-buttons{
             transform: scale(0.6);
-            right: -70px;
+            right: -60px;
+        }
+
+        /* main section info styles */
+
+        .main-section__info{
+            padding: 0 20px;
+        }
+
+        .section__title{
+            font-size: 2rem;
+            line-height: 30px;
+        }
+
+        .section__description{
+            font-size: 1rem;
+            line-height: 20px;
+        }
+
+        .main-section__buttons{
+            transform: scaleY(0.6);
+        }
+
+        .main-section__play{
+            padding-top: 30px;
+        }
+
+        .main-section__play-description{
+            font-size: 0.8rem;
+            line-height: 1rem;
         }
     }
 
@@ -1145,7 +1179,7 @@ body{
 
 
 
-}
+
 
 
 
