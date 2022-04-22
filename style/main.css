@@ -373,6 +373,7 @@ body{
 
 .traffic__info{
     padding-top: 50px;
+    padding-right: 50px;
 }
 
 .traffic__description{
@@ -383,6 +384,12 @@ body{
     margin-top: 50px;
     padding-top: 8px;
     cursor: pointer;
+}
+
+.traffic__image{
+    transform: scale(0.8);
+    position: relative;
+    top: -100px;
 }
 
 .main-photo{
@@ -942,6 +949,15 @@ body{
 
 }
 
+@media screen and (max-width:1200px) {
+
+    .traffic__image{
+        transform: scale(0.7);
+        top: -20px;
+    }
+
+
+}
 @media screen and (max-width:1100px) {
 
     .partners__vector-2{
@@ -950,6 +966,19 @@ body{
 
     .choice-items{
         padding: 0 150px;
+    }
+
+    .traffic{
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
+    .traffic__info{
+        padding-right: 50px;
+    }
+
+    .traffic__image{
+        right: -50px;
     }
 
 }
@@ -996,6 +1025,11 @@ body{
 
     .choice-items{
         padding: 0 50px;
+    }
+
+    .traffic__image{
+        right: -100px;
+        overflow: hidden;
     }
 
 
@@ -1128,6 +1162,10 @@ body{
 
     .traffic > div{
         width: 100%;
+    }
+
+    .traffic__info{
+        padding-right: 0;
     }
 
     .traffic__image{
@@ -1287,12 +1325,28 @@ body{
         align-items: center;
     }
 
+    .traffic__action{
+        margin-top: 20px;
+    }
+
+    .traffic__info{
+        text-align: justify;
+    }
+
 }
 @media screen and (max-width: 500px) {
 
     .choice-item{
         width: 100%;
     }
+
+    .traffic__action{
+        transform: scale(0.8);
+        margin-left: -20px;
+        margin-top: -20px;
+    }
+
+
 
 
 
