@@ -1333,6 +1333,15 @@ body{
         text-align: justify;
     }
 
+    .money__numbers{
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .money__number-title{
+        padding-top: 20px;
+    }
+
 }
 @media screen and (max-width: 500px) {
 
@@ -1344,6 +1353,11 @@ body{
         transform: scale(0.8);
         margin-left: -20px;
         margin-top: -20px;
+    }
+
+    .money__background{
+        max-width: 500px;
+        width: 100%;
     }
 
 
