@@ -1550,6 +1550,7 @@ body{
 
         .help__image{
             transform: scale(0.6);
+            left: -10px;
         }
 
         .help__right{
