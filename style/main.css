@@ -542,6 +542,8 @@ body{
     width: 30%;
 }
 
+
+
 .maskgroup{
     position: absolute;
     right: 0;
@@ -562,11 +564,30 @@ body{
     height: 435px;
     border-radius: 10px;
     background-color: #FFF;
-    overflow: hidden;
+    position: relative;
+    z-index: 2;
 }
 
-.business__card img{
+.restangle1{
     position: relative;
+    border-radius: 10px 10px 0 0;
+}
+
+.restangle2{
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: -62px;
+    top: 90px;
+}
+
+.month-box{
+    width: 130px;
+    height: 65px;
+    position: absolute;
+    top: 246px;
+    left: 240px;
+    z-index: 0;
 }
 
 .card__title{
