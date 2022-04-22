@@ -482,7 +482,8 @@ body{
 }
 
 .next__title{
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -495,6 +496,8 @@ body{
     position: relative;
     top: -130px;
     transition: 1s;
+    max-width: 1440px;
+    width: 100%;
 }
 
 .next-image:hover{
@@ -1342,6 +1345,11 @@ body{
         padding-top: 20px;
     }
 
+    .next__action{
+        margin-top: 0;
+        transform: scale(0.8);
+    }
+
 }
 @media screen and (max-width: 500px) {
 
@@ -1409,6 +1417,10 @@ body{
             width: 290px;
             height: 40px;
             align-items: center;
+        }
+
+        .next__action{
+            transform: scale(0.6);
         }
     }
 
