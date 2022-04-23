@@ -840,7 +840,7 @@ body{
 .social{
     padding-top: 100px;
     display: flex;
-    padding-left: 200px;
+    justify-content: space-around  ;
 }
 
 .social__brand{
@@ -850,7 +850,6 @@ body{
 }
 
 .social-icons{
-    margin-left: 700px;
     display: flex;
     column-gap: 20px;
 }
@@ -1352,13 +1351,15 @@ body{
     }
 
     .email-box{
-        transform: scale(0.7);
+        transform: scale(0.9);
         top: -50px;
+        margin-bottom: 40px;
     }
 
     .social{
         padding-left: 20px;
-        margin-top: -120px ;
+        padding-right: 20px;
+        padding-top: 0px;
     }
 
     .social__brand{
@@ -1366,7 +1367,6 @@ body{
     }
 
     .social-icons{
-        margin-left: 20rem;
         transform: scale(0.8);
     }
 
@@ -1465,6 +1465,10 @@ body{
         height: 36px;
     }
 
+    .social{
+        margin-top: 50px ;
+    }
+
 }
 @media screen and (max-width: 500px) {
 
@@ -1490,6 +1494,10 @@ body{
     .email-button{
         border-radius: 5px;
         margin-top: 10px;
+    }
+
+    .social{
+        margin-top: 120px;
     }
 
 
@@ -1619,6 +1627,19 @@ body{
 
         .email-box__inputs{
             transform: scale(0.8);
+        }
+
+        .social{
+            margin-top: 160px;
+        }
+
+        .social-icons{
+            transform: scale(0.6);
+            column-gap: 10px;
+        }
+
+        .social__brand{
+            transform: scale(0.6);
         }
 
 
