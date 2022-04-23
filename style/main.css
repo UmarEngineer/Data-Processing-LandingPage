@@ -139,8 +139,45 @@ body{
 .nav-toggle{
     width: 40px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 5px;
+    color: #F2994A;
     display: none;
+    font-size:30px ;
+}
+
+.x-icon{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    color: #F2994A;
+    font-size: 30px;
+    display: none;
+}
+
+.for-rotate{
+    animation-name: anim;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: backwards;
+    transform-origin: 100% 0%;
+
+
+
+}
+
+@keyframes anim {
+
+    0%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    100%{
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+
+
 }
 
 
@@ -1158,6 +1195,14 @@ body{
         position: absolute;
         right: 20px;
         top: 0px;
+    }
+
+    .x-icon{
+        display:none;
+        position: absolute;
+        right: 20px;
+        top: 0px;
+
     }
 
     .nav-brand{
